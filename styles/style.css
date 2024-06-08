@@ -1,0 +1,148 @@
+header{
+    background-color: #f4f8fb;
+    width: 60%;
+    margin-left: 20%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 300px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    border-color: #f4f8fb;
+    /* border-style: double; */
+}
+
+header img { 
+    width: 100%; 
+    margin-top: -260px;
+    /* height: auto; */
+}
+
+footer{
+    background-color: #f4f8fb;
+    height: 50px;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    bottom: 20px;
+    position: fixed;
+    left: 0;
+}
+
+.dp{
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 50%;
+    /* background-color: white; */
+    transform: translateX(-50%);
+    position: fixed; 
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    /* box-shadow: 10%; */
+    box-shadow: 0px 0px 100px 0px black;
+    transition: 400ms;
+} 
+
+.dp img:hover{
+    scale: 110%;
+}
+
+.dp img { 
+    width: 100%; 
+    height: auto;
+    transition: 400ms;
+}
+
+.background{
+    background-color: black;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+/* body{
+    background-image: url(../images/_DSC8436.jpg);
+    background-size: cover;
+
+} */
+
+.background img{
+    width: 100%;
+    opacity: 20%;
+    background-size: cover;
+}
+
+.profile-box{
+    background-color: black;
+    height: 70%;
+    width: 60%;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    background-blend-mode: darken;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.details{
+    color: white;
+    text-align: center;
+}
+
+.details h1 {
+    font-size: 300%;
+    margin-bottom: 0;
+    margin-top: 230px;
+}
+
+.details p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.images {
+    width: 25%;
+    overflow: hidden;
+    float: left;
+
+
+}
+
+.images img {
+    width: 100%;
+    margin-top: -130px;
+}
+
+.images:hover {
+    transition: 500ms;
+    scale: 120%;
+    transform: skewZ(10%);
+}
+
+.foot {
+    color: black;
+    bottom: 0;
+    background-color: white;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: 400ms;
+}
+
+.foot:hover{
+    background-color: black;
+    color: white;
+}
+
+.foot p {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
